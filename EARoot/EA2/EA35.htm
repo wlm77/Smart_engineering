@@ -1,0 +1,1042 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Interface::project_monitoring</title>
+<link href="../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("project_monitoring", " : "))</script> 项目监控指标 : Public abstract  Interface</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">2019/6/5 16:57:57</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">2019/6/9 2:03:05</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">WangQi</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{FFD304DB-D85E-40d4-966D-354D00F1CCE0}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA30.htm">Interface</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">&#39033;&#30446;&#30417;&#25511;&#32479;&#35745;&#20449;&#24687;&lt;br/&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('Operations');" id="OperationsTitle">Operations</li>
+		</ul>
+<div class="ItemBody" id="OperationsTable">
+	<table border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="100%" class="TableHeading">Operation</td>
+		</tr>
+						<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>companies_in_project_statistics</strong>(					<a href="#" onclick="parent.toggleData('param{12100739-AE42-4b94-A3FA-D9BFCBB6966F}')" style="text-decoration: none; color: #000000;"><img src="../../images/plus03.gif" align="absmiddle" id="param{12100739-AE42-4b94-A3FA-D9BFCBB6966F}" border="0" />project: int</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{12100739-AE42-4b94-A3FA-D9BFCBB6966F}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{12100739-AE42-4b94-A3FA-D9BFCBB6966F}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{12100739-AE42-4b94-A3FA-D9BFCBB6966F}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{12100739-AE42-4b94-A3FA-D9BFCBB6966F}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):<a href="../EA1/EA23.htm">Map</a>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations105" onclick="parent.toggleDiv('detailsDIVOperations105','DetailsImageOperations105')" />Details:
+						<div id="detailsDIVOperations105" class="DetailsDiv" >
+					<i>Alias: </i>参与项目企业统计<br><i>Sequential &lt;&lt;API&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			//&#20998;&#31867;&#32479;&#35745;&#21442;&#19982;&#35813;&#39033;&#30446;&#30340;&#20844;&#21496;&#25968;&#37327;&lt;br/&gt;&lt;br/&gt;&#36820;&#22238;&#65307;&lt;br/&gt;{&lt;br/&gt;	general_contracting_number:&#24635;&#21253;&#20844;&#21496;&#25968;&#37327;&lt;br/&gt;	subcontracting_number:&#20998;&#21253;&#20844;&#21496;&#25968;&#37327;&lt;br/&gt;	services_number:&#21171;&#21153;&#20844;&#21496;&#25968;&#37327;&lt;br/&gt;}&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>company_ist</strong>(					<a href="#" onclick="parent.toggleData('param{FA53C0DC-3FE4-4a2c-A4D3-AC6D8478FC29}')" style="text-decoration: none; color: #000000;"><img src="../../images/plus03.gif" align="absmiddle" id="param{FA53C0DC-3FE4-4a2c-A4D3-AC6D8478FC29}" border="0" />project: int</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{FA53C0DC-3FE4-4a2c-A4D3-AC6D8478FC29}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{FA53C0DC-3FE4-4a2c-A4D3-AC6D8478FC29}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{FA53C0DC-3FE4-4a2c-A4D3-AC6D8478FC29}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{FA53C0DC-3FE4-4a2c-A4D3-AC6D8478FC29}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):<a href="../EA1/EA23.htm">Map</a>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations106" onclick="parent.toggleDiv('detailsDIVOperations106','DetailsImageOperations106')" />Details:
+						<div id="detailsDIVOperations106" class="DetailsDiv" >
+					<i>Alias: </i>获取公司列表<br><i>Sequential &lt;&lt;API&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			//&#33719;&#21462;&#21442;&#19982;&#39033;&#30446;&#30340;&#20844;&#21496;&#21015;&#34920;&lt;br/&gt;&lt;br/&gt;&#36820;&#22238;&#65307;&lt;br/&gt;{&lt;br/&gt;	[&lt;br/&gt;	company:&#20844;&#21496;&#21517;&#31216;&lt;br/&gt;	company_id:&#20844;&#21496;ID&lt;br/&gt;	],&lt;br/&gt;	...&lt;br/&gt;}&lt;br/&gt;&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>Company_work_type_statistics</strong>(					<a href="#" onclick="parent.toggleData('param{50C7388F-CB9B-4a44-ACAB-04EAC511CC98}')" style="text-decoration: none; color: #000000;"><img src="../../images/plus03.gif" align="absmiddle" id="param{50C7388F-CB9B-4a44-ACAB-04EAC511CC98}" border="0" />project: int</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{50C7388F-CB9B-4a44-ACAB-04EAC511CC98}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{50C7388F-CB9B-4a44-ACAB-04EAC511CC98}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{50C7388F-CB9B-4a44-ACAB-04EAC511CC98}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{50C7388F-CB9B-4a44-ACAB-04EAC511CC98}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{2B1456C5-E7A0-474a-BD44-46B34ED1B64F}')" style="text-decoration: none; color: #000000;"><img src="../../images/plus03.gif" align="absmiddle" id="param{2B1456C5-E7A0-474a-BD44-46B34ED1B64F}" border="0" />company: int</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{2B1456C5-E7A0-474a-BD44-46B34ED1B64F}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{2B1456C5-E7A0-474a-BD44-46B34ED1B64F}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{2B1456C5-E7A0-474a-BD44-46B34ED1B64F}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{2B1456C5-E7A0-474a-BD44-46B34ED1B64F}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):<a href="../EA1/EA23.htm">Map</a>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations107" onclick="parent.toggleDiv('detailsDIVOperations107','DetailsImageOperations107')" />Details:
+						<div id="detailsDIVOperations107" class="DetailsDiv" >
+					<i>Alias: </i>公司人员分类统计<br><i>Sequential &lt;&lt;API&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			//&#32479;&#35745;&#35813;&#39033;&#30446;&#21508;&#24037;&#31181;&#20154;&#25968;&#24182;&#25353;&#38477;&#24207;&#25490;&#24207;&#65292;&#20801;&#35768;&#36890;&#36807;&#20844;&#21496;&#31579;&#36873;&#65288;&#40664;&#35748;&#20840;&#37096;&#65289;&#65307;&lt;br/&gt;&lt;br/&gt;&#36820;&#22238;&#65307;&lt;br/&gt;{&lt;br/&gt;	[&lt;br/&gt;	work_type:&#24037;&#31181;&#21517;&#31216;&lt;br/&gt;	employyes_number:&#20154;&#25968;&lt;br/&gt;	],&lt;br/&gt;	...&lt;br/&gt;}&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>Continuous_statistics</strong>(					<a href="#" onclick="parent.toggleData('param{2EC7026D-EF64-42b2-876C-0DDD32A862F0}')" style="text-decoration: none; color: #000000;"><img src="../../images/plus03.gif" align="absmiddle" id="param{2EC7026D-EF64-42b2-876C-0DDD32A862F0}" border="0" />project: int</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{2EC7026D-EF64-42b2-876C-0DDD32A862F0}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{2EC7026D-EF64-42b2-876C-0DDD32A862F0}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{2EC7026D-EF64-42b2-876C-0DDD32A862F0}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{2EC7026D-EF64-42b2-876C-0DDD32A862F0}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{019E77C1-A142-4a0a-9C3E-D29A12FB4088}')" style="text-decoration: none; color: #000000;"><img src="../../images/plus03.gif" align="absmiddle" id="param{019E77C1-A142-4a0a-9C3E-D29A12FB4088}" border="0" />date: date</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{019E77C1-A142-4a0a-9C3E-D29A12FB4088}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{019E77C1-A142-4a0a-9C3E-D29A12FB4088}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{019E77C1-A142-4a0a-9C3E-D29A12FB4088}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{019E77C1-A142-4a0a-9C3E-D29A12FB4088}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{7E6C0907-7563-455c-8849-DB8906F6C6FB}')" style="text-decoration: none; color: #000000;"><img src="../../images/plus03.gif" align="absmiddle" id="param{7E6C0907-7563-455c-8849-DB8906F6C6FB}" border="0" />entrance: int</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{7E6C0907-7563-455c-8849-DB8906F6C6FB}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{7E6C0907-7563-455c-8849-DB8906F6C6FB}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{7E6C0907-7563-455c-8849-DB8906F6C6FB}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{7E6C0907-7563-455c-8849-DB8906F6C6FB}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):<a href="../EA1/EA23.htm">Map</a>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations108" onclick="parent.toggleDiv('detailsDIVOperations108','DetailsImageOperations108')" />Details:
+						<div id="detailsDIVOperations108" class="DetailsDiv" >
+					<i>Alias: </i>进出连续统计<br><i>Sequential &lt;&lt;API&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			//&#25353;&#20998;&#38047;&#36830;&#32493;&#32479;&#35745;&#24403;&#22825;&#36827;&#20986;&#22330;&#20154;&#21592;&#25968;&#37327;&#65292;&#36827;&#22330;&#25968;&#37327;&#20026;&#27599;&#20998;&#38047;&#36827;&#20837;&#20154;&#25968;&#24635;&#21644;&#65292;&#20986;&#22330;&#25968;&#37327;&#35745;&#31639;&#26041;&#24335;&#30456;&#21516;;&#20801;&#35768;&#25353;&#24037;&#22320;&#20837;&#21475;&#36827;&#34892;&#31579;&#36873;&#65288;&#40664;&#35748;&#20840;&#37096;&#65289;&lt;br/&gt;&lt;br/&gt;&#36820;&#22238;&#65307;&lt;br/&gt;{&lt;br/&gt;	[&lt;br/&gt;	date_time:&#20998;&#38047;&#26102;&#38388;&lt;br/&gt;	in_site_number:&#36827;&#22330;&#20154;&#25968;&lt;br/&gt;	out_site_number:&#20986;&#22330;&#20154;&#25968;&lt;br/&gt;	],&lt;br/&gt;	...&lt;br/&gt;}&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>Employee_attendance_statistics</strong>(					<a href="#" onclick="parent.toggleData('param{45D1AFE9-5F24-44e9-9FD5-B2CF21F01E93}')" style="text-decoration: none; color: #000000;"><img src="../../images/plus03.gif" align="absmiddle" id="param{45D1AFE9-5F24-44e9-9FD5-B2CF21F01E93}" border="0" />project: int</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{45D1AFE9-5F24-44e9-9FD5-B2CF21F01E93}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{45D1AFE9-5F24-44e9-9FD5-B2CF21F01E93}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{45D1AFE9-5F24-44e9-9FD5-B2CF21F01E93}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{45D1AFE9-5F24-44e9-9FD5-B2CF21F01E93}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{4CB2A0E2-EE77-479a-82C8-15B84A6A5211}')" style="text-decoration: none; color: #000000;"><img src="../../images/plus03.gif" align="absmiddle" id="param{4CB2A0E2-EE77-479a-82C8-15B84A6A5211}" border="0" />date: date</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{4CB2A0E2-EE77-479a-82C8-15B84A6A5211}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{4CB2A0E2-EE77-479a-82C8-15B84A6A5211}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{4CB2A0E2-EE77-479a-82C8-15B84A6A5211}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{4CB2A0E2-EE77-479a-82C8-15B84A6A5211}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):<a href="../EA1/EA23.htm">Map</a>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations109" onclick="parent.toggleDiv('detailsDIVOperations109','DetailsImageOperations109')" />Details:
+						<div id="detailsDIVOperations109" class="DetailsDiv" >
+					<i>Alias: </i>日出勤人员统计<br><i>Sequential &lt;&lt;API&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			//&#20998;&#24037;&#31181;&#32479;&#35745;&#20170;&#26085;&#20986;&#21220;&#20154;&#21592;&#25968;&#37327;&lt;br/&gt;&lt;br/&gt;&#36820;&#22238;&#65307;&lt;br/&gt;{&lt;br/&gt;	[&lt;br/&gt;	work_type:&#24037;&#31181;&lt;br/&gt;	attendance:&#20986;&#21220;&#20154;&#25968;&lt;br/&gt;	],&lt;br/&gt;	...&lt;br/&gt;}&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>Employee_number_in_180_day</strong>(					<a href="#" onclick="parent.toggleData('param{BA9FDF41-1609-4a18-8DF8-DCB654933459}')" style="text-decoration: none; color: #000000;"><img src="../../images/plus03.gif" align="absmiddle" id="param{BA9FDF41-1609-4a18-8DF8-DCB654933459}" border="0" />project: int</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{BA9FDF41-1609-4a18-8DF8-DCB654933459}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{BA9FDF41-1609-4a18-8DF8-DCB654933459}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{BA9FDF41-1609-4a18-8DF8-DCB654933459}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{BA9FDF41-1609-4a18-8DF8-DCB654933459}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{5FC6090C-4900-4954-A18D-D1C97AE4B263}')" style="text-decoration: none; color: #000000;"><img src="../../images/plus03.gif" align="absmiddle" id="param{5FC6090C-4900-4954-A18D-D1C97AE4B263}" border="0" />now: date</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{5FC6090C-4900-4954-A18D-D1C97AE4B263}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{5FC6090C-4900-4954-A18D-D1C97AE4B263}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{5FC6090C-4900-4954-A18D-D1C97AE4B263}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{5FC6090C-4900-4954-A18D-D1C97AE4B263}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):<a href="../EA1/EA23.htm">Map</a>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations110" onclick="parent.toggleDiv('detailsDIVOperations110','DetailsImageOperations110')" />Details:
+						<div id="detailsDIVOperations110" class="DetailsDiv" >
+					<i>Alias: </i>项目人员变化<br><i>Sequential &lt;&lt;API&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			//&#32479;&#35745;&#36817;180&#22825;&#39033;&#30446;&#20154;&#21592;&#25968;&#37327;&#21464;&#21270;&#24773;&#20917;&#65292;&#31890;&#24230;&#20026;&#22825;&lt;br/&gt;&lt;br/&gt;&#36820;&#22238;&#65307;&lt;br/&gt;{&lt;br/&gt;	[&lt;br/&gt;	date:&#26085;&#26399;&lt;br/&gt;	employees_number:&#39033;&#30446;&#20154;&#25968;&lt;br/&gt;	],&lt;br/&gt;	...&lt;br/&gt;}&lt;br/&gt;&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>Employees_education_statistics</strong>(					<a href="#" onclick="parent.toggleData('param{094800CF-83AD-4064-9347-0E4EB76C971A}')" style="text-decoration: none; color: #000000;"><img src="../../images/plus03.gif" align="absmiddle" id="param{094800CF-83AD-4064-9347-0E4EB76C971A}" border="0" />project: int</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{094800CF-83AD-4064-9347-0E4EB76C971A}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{094800CF-83AD-4064-9347-0E4EB76C971A}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{094800CF-83AD-4064-9347-0E4EB76C971A}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{094800CF-83AD-4064-9347-0E4EB76C971A}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):<a href="../EA1/EA23.htm">Map</a>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations111" onclick="parent.toggleDiv('detailsDIVOperations111','DetailsImageOperations111')" />Details:
+						<div id="detailsDIVOperations111" class="DetailsDiv" >
+					<i>Alias: </i>项目员工教育统计<br><i>Sequential &lt;&lt;API&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			//&#39033;&#30446;&#21592;&#24037;&#25945;&#32946;&#32479;&#35745;&#25351;&#26631;&lt;br/&gt;&lt;br/&gt;&#36820;&#22238;&#65307;&lt;br/&gt;{&lt;br/&gt;	employees_number:&#39033;&#30446;&#21592;&#24037;&#25968;&lt;br/&gt;	pass_number:&#32771;&#35797;&#21450;&#26684;&#20154;&#25968;&lt;br/&gt;	not_pass_number:&#32771;&#35797;&#19981;&#21450;&#26684;&#20154;&#25968;&lt;br/&gt;	not_taking_test_number:&#26410;&#21442;&#21152;&#32771;&#35797;&#20154;&#25968;&lt;br/&gt;	pass_rate:&#32771;&#35797;&#21450;&#26684;&#21344;&#27604;&lt;br/&gt;	not_pass_rate:&#32771;&#35797;&#19981;&#21450;&#26684;&#21344;&#27604;&lt;br/&gt;	not_taking_test_rate:&#26410;&#21442;&#21152;&#32771;&#35797;&#21344;&#27604;&lt;br/&gt;}&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>In_out_statistics</strong>(					<a href="#" onclick="parent.toggleData('param{86E7E982-308B-416c-915E-92035E067F98}')" style="text-decoration: none; color: #000000;"><img src="../../images/plus03.gif" align="absmiddle" id="param{86E7E982-308B-416c-915E-92035E067F98}" border="0" />project: int</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{86E7E982-308B-416c-915E-92035E067F98}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{86E7E982-308B-416c-915E-92035E067F98}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{86E7E982-308B-416c-915E-92035E067F98}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{86E7E982-308B-416c-915E-92035E067F98}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{464E4E34-FD81-44b2-B842-9D862838F17C}')" style="text-decoration: none; color: #000000;"><img src="../../images/plus03.gif" align="absmiddle" id="param{464E4E34-FD81-44b2-B842-9D862838F17C}" border="0" />date: date</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{464E4E34-FD81-44b2-B842-9D862838F17C}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{464E4E34-FD81-44b2-B842-9D862838F17C}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{464E4E34-FD81-44b2-B842-9D862838F17C}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{464E4E34-FD81-44b2-B842-9D862838F17C}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):<a href="../EA1/EA23.htm">Map</a>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations112" onclick="parent.toggleDiv('detailsDIVOperations112','DetailsImageOperations112')" />Details:
+						<div id="detailsDIVOperations112" class="DetailsDiv" >
+					<i>Alias: </i>进出人数统计<br><i>Sequential &lt;&lt;API&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			//&#25353;&#23567;&#26102;&#36830;&#32493;&#32479;&#35745;&#24403;&#22825;&#36827;&#20986;&#22330;&#20154;&#21592;&#25968;&#37327;&#65292;&#36827;&#22330;&#25968;&#37327;&#20026;&#27599;&#23567;&#26102;&#36827;&#20837;&#20154;&#25968;&#24635;&#21644;&#65292;&#20986;&#22330;&#25968;&#37327;&#35745;&#31639;&#26041;&#24335;&#30456;&#21516;&lt;br/&gt;&lt;br/&gt;&#36820;&#22238;&#65307;&lt;br/&gt;{&lt;br/&gt;	[&lt;br/&gt;	date_time:&#25972;&#28857;&#26102;&#38388;&lt;br/&gt;	in_site_number:&#36827;&#22330;&#20154;&#25968;&lt;br/&gt;	out_site_number:&#20986;&#22330;&#20154;&#25968;&lt;br/&gt;	],&lt;br/&gt;	...&lt;br/&gt;}&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>Number_of_people_present</strong>(					<a href="#" onclick="parent.toggleData('param{C69537A0-7C0B-47a9-B206-2501018FC57A}')" style="text-decoration: none; color: #000000;"><img src="../../images/plus03.gif" align="absmiddle" id="param{C69537A0-7C0B-47a9-B206-2501018FC57A}" border="0" />project: int</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{C69537A0-7C0B-47a9-B206-2501018FC57A}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{C69537A0-7C0B-47a9-B206-2501018FC57A}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{C69537A0-7C0B-47a9-B206-2501018FC57A}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{C69537A0-7C0B-47a9-B206-2501018FC57A}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{C496D413-20CE-4bf1-A42D-B3C380F9BA77}')" style="text-decoration: none; color: #000000;"><img src="../../images/plus03.gif" align="absmiddle" id="param{C496D413-20CE-4bf1-A42D-B3C380F9BA77}" border="0" />date: date</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{C496D413-20CE-4bf1-A42D-B3C380F9BA77}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{C496D413-20CE-4bf1-A42D-B3C380F9BA77}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{C496D413-20CE-4bf1-A42D-B3C380F9BA77}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{C496D413-20CE-4bf1-A42D-B3C380F9BA77}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):<a href="../EA1/EA23.htm">Map</a>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations113" onclick="parent.toggleDiv('detailsDIVOperations113','DetailsImageOperations113')" />Details:
+						<div id="detailsDIVOperations113" class="DetailsDiv" >
+					<i>Alias: </i>在场人员统计<br><i>Sequential &lt;&lt;API&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			//&#22312;&#22330;&#20154;&#21592;&#32479;&#35745;&#25351;&#26631;,&#36830;&#32493;&#32479;&#35745;&#24403;&#22825;&#22312;&#22330;&#20154;&#21592;&#30340;&#25968;&#37327;&#65292;&#37319;&#26679;&#31890;&#24230;&#20026;&#20998;&#38047;(&#35813;&#25351;&#26631;&#26102;&#25928;&#24615;&#36739;&#39640;&#65292;&#38656;redis&#23384;&#20648;)&#65306;&lt;br/&gt;&lt;br/&gt;&#36820;&#22238;&#65307;&lt;br/&gt;{&lt;br/&gt;	[&lt;br/&gt;	date_time:&#26085;&#26399;&#26102;&#38388;&lt;br/&gt;	inside_number:&#22312;&#22330;&#20154;&#25968;&lt;br/&gt;	],&lt;br/&gt;	...&lt;br/&gt;}&lt;br/&gt;&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>Project_attendance_statistics</strong>(					<a href="#" onclick="parent.toggleData('param{63991EDA-A6E2-4238-A2FC-CB2E2A19F616}')" style="text-decoration: none; color: #000000;"><img src="../../images/plus03.gif" align="absmiddle" id="param{63991EDA-A6E2-4238-A2FC-CB2E2A19F616}" border="0" />project: int</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{63991EDA-A6E2-4238-A2FC-CB2E2A19F616}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{63991EDA-A6E2-4238-A2FC-CB2E2A19F616}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{63991EDA-A6E2-4238-A2FC-CB2E2A19F616}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{63991EDA-A6E2-4238-A2FC-CB2E2A19F616}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{B1EE01CB-E0B8-4962-ABE3-BDAB3F65017A}')" style="text-decoration: none; color: #000000;"><img src="../../images/plus03.gif" align="absmiddle" id="param{B1EE01CB-E0B8-4962-ABE3-BDAB3F65017A}" border="0" />date: date</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{B1EE01CB-E0B8-4962-ABE3-BDAB3F65017A}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{B1EE01CB-E0B8-4962-ABE3-BDAB3F65017A}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{B1EE01CB-E0B8-4962-ABE3-BDAB3F65017A}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{B1EE01CB-E0B8-4962-ABE3-BDAB3F65017A}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):<a href="../EA1/EA23.htm">Map</a>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations114" onclick="parent.toggleDiv('detailsDIVOperations114','DetailsImageOperations114')" />Details:
+						<div id="detailsDIVOperations114" class="DetailsDiv" >
+					<i>Alias: </i>项目出勤情况<br><i>Sequential &lt;&lt;API&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			//&#32479;&#35745;&#36817;30&#22825;&#39033;&#30446;&#20154;&#21592;&#20986;&#21220;&#20154;&#25968;&#21450;&#20986;&#21220;&#29575;&#65292;&#37319;&#26679;&#31890;&#24230;&#20026;1&#22825;&lt;br/&gt;&lt;br/&gt;&#36820;&#22238;&#65307;&lt;br/&gt;{&lt;br/&gt;	[&lt;br/&gt;	attendance:&#20986;&#21220;&#20154;&#25968;&lt;br/&gt;	attendance_rate:&#20986;&#21220;&#29575;&lt;br/&gt;	],&lt;br/&gt;	...&lt;br/&gt;}&lt;br/&gt;&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>project_details</strong>(					<a href="#" onclick="parent.toggleData('param{07038A30-2110-4873-8872-2433B7FA68A4}')" style="text-decoration: none; color: #000000;"><img src="../../images/plus03.gif" align="absmiddle" id="param{07038A30-2110-4873-8872-2433B7FA68A4}" border="0" />project: int</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{07038A30-2110-4873-8872-2433B7FA68A4}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{07038A30-2110-4873-8872-2433B7FA68A4}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{07038A30-2110-4873-8872-2433B7FA68A4}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{07038A30-2110-4873-8872-2433B7FA68A4}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):<a href="../EA1/EA23.htm">Map</a>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations115" onclick="parent.toggleDiv('detailsDIVOperations115','DetailsImageOperations115')" />Details:
+						<div id="detailsDIVOperations115" class="DetailsDiv" >
+					<i>Alias: </i>获取项目详情<br><i>Sequential &lt;&lt;API&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			//&#33719;&#21462;&#39033;&#30446;&#35814;&#32454;&#20449;&#24687;&lt;br/&gt;&lt;br/&gt;&#36820;&#22238;&#65307;&lt;br/&gt;{&lt;br/&gt;	project_name:&#39033;&#30446;&#21517;&#31216;&lt;br/&gt;	project_address:&#39033;&#30446;&#22320;&#22336;&lt;br/&gt;	contractor:&#25215;&#24314;&#21333;&#20301;&lt;br/&gt;	start_date:&#39033;&#30446;&#24320;&#24037;&#26085;&#26399;&lt;br/&gt;	completion_date:&#39033;&#30446;&#31459;&#24037;&#26085;&#26399;&lt;br/&gt;	project_longitude:&#39033;&#30446;&#32463;&#24230;&lt;br/&gt;	project_latitude:&#39033;&#30446;&#32428;&#24230;&lt;br/&gt;	devices_number:&#39033;&#30446;&#23433;&#35013;&#35774;&#22791;&#25968;&#37327;&lt;br/&gt;	safe_production_start_date:&#23433;&#20840;&#29983;&#20135;&#36215;&#22987;&#26085;&#26399;&lt;br/&gt;	engineering_category:&#39033;&#30446;&#24037;&#31243;&#31867;&#21035;&lt;br/&gt;}&lt;br/&gt;&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>project_entrance_list</strong>(					<a href="#" onclick="parent.toggleData('param{5F574CFA-6CEA-4ff3-BBEA-A07C4EF70C75}')" style="text-decoration: none; color: #000000;"><img src="../../images/plus03.gif" align="absmiddle" id="param{5F574CFA-6CEA-4ff3-BBEA-A07C4EF70C75}" border="0" />project: int</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{5F574CFA-6CEA-4ff3-BBEA-A07C4EF70C75}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{5F574CFA-6CEA-4ff3-BBEA-A07C4EF70C75}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{5F574CFA-6CEA-4ff3-BBEA-A07C4EF70C75}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{5F574CFA-6CEA-4ff3-BBEA-A07C4EF70C75}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):<a href="../EA1/EA23.htm">Map</a>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations116" onclick="parent.toggleDiv('detailsDIVOperations116','DetailsImageOperations116')" />Details:
+						<div id="detailsDIVOperations116" class="DetailsDiv" >
+					<i>Alias: </i>获取项目入口列表<br><i>Sequential &lt;&lt;API&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			//&#33719;&#21462;&#39033;&#30446;&#20986;&#20837;&#21475;&#21015;&#34920;&lt;br/&gt;&lt;br/&gt;&#36820;&#22238;&#65307;&lt;br/&gt;{&lt;br/&gt;	[&lt;br/&gt;	entrance:&#20837;&#21475;&#21517;&#31216;&lt;br/&gt;	entrance_id:&#20837;&#21475;ID&lt;br/&gt;	entrance_longitude:&#20837;&#21475;&#32463;&#24230;&lt;br/&gt;	entrance_latitude:&#20837;&#21475;&#32428;&#24230;&lt;br/&gt;	],&lt;br/&gt;	...&lt;br/&gt;}&lt;br/&gt;&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>project_monitoring</strong>():<a href="../EA1/EA23.htm">Map</a>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations117" onclick="parent.toggleDiv('detailsDIVOperations117','DetailsImageOperations117')" />Details:
+						<div id="detailsDIVOperations117" class="DetailsDiv" >
+					<i>Alias: </i>获取项目列表<br><i>Sequential &lt;&lt;API&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			//&#33719;&#21462;&#22312;&#24314;&#39033;&#30446;&#21015;&#34920;&lt;br/&gt;&lt;br/&gt;&#36820;&#22238;&#65307;&lt;br/&gt;{&lt;br/&gt;	[&lt;br/&gt;	project_name:&#39033;&#30446;&#21517;&#31216;&lt;br/&gt;	project_id:&#39033;&#30446;ID&lt;br/&gt;	],&lt;br/&gt;	...&lt;br/&gt;}&lt;br/&gt;&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>Project_work_type_statistics</strong>(					<a href="#" onclick="parent.toggleData('param{BCEF58FB-2F11-475d-91A0-FB11D8EBC205}')" style="text-decoration: none; color: #000000;"><img src="../../images/plus03.gif" align="absmiddle" id="param{BCEF58FB-2F11-475d-91A0-FB11D8EBC205}" border="0" />project: int</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{BCEF58FB-2F11-475d-91A0-FB11D8EBC205}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{BCEF58FB-2F11-475d-91A0-FB11D8EBC205}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{BCEF58FB-2F11-475d-91A0-FB11D8EBC205}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{BCEF58FB-2F11-475d-91A0-FB11D8EBC205}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{FF558611-F997-4059-9013-F0B6FA469EC6}')" style="text-decoration: none; color: #000000;"><img src="../../images/plus03.gif" align="absmiddle" id="param{FF558611-F997-4059-9013-F0B6FA469EC6}" border="0" />work_type: work_type</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{FF558611-F997-4059-9013-F0B6FA469EC6}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{FF558611-F997-4059-9013-F0B6FA469EC6}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{FF558611-F997-4059-9013-F0B6FA469EC6}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{FF558611-F997-4059-9013-F0B6FA469EC6}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):<a href="../EA1/EA23.htm">Map</a>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations118" onclick="parent.toggleDiv('detailsDIVOperations118','DetailsImageOperations118')" />Details:
+						<div id="detailsDIVOperations118" class="DetailsDiv" >
+					<i>Alias: </i>项目人员分类统计<br><i>Sequential &lt;&lt;API&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			//&#32479;&#35745;&#21442;&#19982;&#35813;&#39033;&#30446;&#30340;&#20225;&#19994;&#21450;&#20225;&#19994;&#21442;&#19982;&#35813;&#39033;&#30446;&#30340;&#20154;&#25968;&#65292;&#24182;&#25353;&#20154;&#25968;&#38477;&#24207;&#25490;&#24207;&#65307;&#20801;&#35768;&#36890;&#36807;&#24037;&#31181;&#31579;&#36873;&#65288;&#40664;&#35748;&#20840;&#37096;&#65289;&#65307;&lt;br/&gt;&lt;br/&gt;&#36820;&#22238;&#65307;&lt;br/&gt;{&lt;br/&gt;	[&lt;br/&gt;	company:&#20844;&#21496;&#21517;&#31216;&lt;br/&gt;	employyes_number:&#20154;&#25968;&lt;br/&gt;	],&lt;br/&gt;	...&lt;br/&gt;}&lt;br/&gt;&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>work_type_list</strong>():<a href="../EA1/EA23.htm">Map</a>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations119" onclick="parent.toggleDiv('detailsDIVOperations119','DetailsImageOperations119')" />Details:
+						<div id="detailsDIVOperations119" class="DetailsDiv" >
+					<i>Alias: </i>获取工种列表<br><i>Sequential &lt;&lt;API&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			//&#33719;&#21462;&#24037;&#31181;&#21015;&#34920;&lt;br/&gt;&lt;br/&gt;&#36820;&#22238;&#65307;&lt;br/&gt;{&lt;br/&gt;	[&lt;br/&gt;	work_type:&#24037;&#31181;&#21517;&#31216;&lt;br/&gt;	work_type_id:&#24037;&#31181;ID&lt;br/&gt;	],&lt;br/&gt;	...&lt;br/&gt;}&lt;br/&gt;&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+
+		</table>
+</div>	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

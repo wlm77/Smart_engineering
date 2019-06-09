@@ -1,0 +1,13 @@
+tocTab[tocTab.length] = new Array("0.3:1", "", "Tables", "EARoot/EA3/EA37.htm", "175.png", "13", "0", "", "Logical diagram0","{43AA0876-C3A2-4632-8579-8653D0FAF9AB}");
+tocTab[tocTab.length] = new Array("0.3:2", "", "«table» Access_record", "EARoot/EA3/EA41.htm", "8C9E6706-8_table.png", "E109", "0", "", "Class0","{298773FE-C5AE-46b3-B67B-6AAC710B5892}");
+tocTab[tocTab.length] = new Array("0.3:3", "", "«table» Active_number", "EARoot/EA3/EA42.htm", "8C9E6706-8_table.png", "E110", "0", "", "Class0","{E077170C-0836-4462-B0D0-B5E49776E3D1}");
+tocTab[tocTab.length] = new Array("0.3:4", "", "«table» Attendance_of_work_type", "EARoot/EA3/EA43.htm", "8C9E6706-8_table.png", "E111", "0", "", "Class0","{F5C1E02A-34CE-4e3f-AD51-C9E1218C147D}");
+tocTab[tocTab.length] = new Array("0.3:5", "", "«table» Company", "EARoot/EA3/EA44.htm", "8C9E6706-8_table.png", "E112", "0", "", "Class0","{F801510A-D931-43a9-A017-FE6F01B8E461}");
+tocTab[tocTab.length] = new Array("0.3:6", "", "«table» Device", "EARoot/EA3/EA45.htm", "8C9E6706-8_table.png", "E113", "0", "", "Class0","{E561AC58-30D5-4ad0-872C-87FDA8A775AC}");
+tocTab[tocTab.length] = new Array("0.3:7", "", "«table» Device_type", "EARoot/EA3/EA46.htm", "8C9E6706-8_table.png", "E114", "0", "", "Class0","{BFB6C7A6-197C-4153-B850-512BC189886E}");
+tocTab[tocTab.length] = new Array("0.3:8", "", "«table» Employee_work_type_statistics", "EARoot/EA3/EA47.htm", "8C9E6706-8_table.png", "E115", "0", "", "Class0","{30F11983-9A52-4427-85F4-79A195575585}");
+tocTab[tocTab.length] = new Array("0.3:9", "", "«table» Project", "EARoot/EA3/EA48.htm", "8C9E6706-8_table.png", "E116", "0", "", "Class0","{53635A8D-92E3-4d7c-89C3-B40534704C35}");
+tocTab[tocTab.length] = new Array("0.3:10", "", "«table» Project_attendance_statistics", "EARoot/EA3/EA49.htm", "8C9E6706-8_table.png", "E117", "0", "", "Class0","{911FB4B1-2DD1-4ab9-912E-0A4991A92587}");
+tocTab[tocTab.length] = new Array("0.3:11", "", "«table» Project_company", "EARoot/EA3/EA50.htm", "8C9E6706-8_table.png", "E118", "0", "", "Class0","{9BF99BEE-3D61-4156-903C-5693E1B733BB}");
+tocTab[tocTab.length] = new Array("0.3:12", "", "«table» Project_entrance", "EARoot/EA3/EA51.htm", "8C9E6706-8_table.png", "E119", "0", "", "Class0","{1561471F-8C1D-45b3-A53D-5962C108FE9B}");
+tocTab[tocTab.length] = new Array("0.3:13", "", "«table» Work_type", "EARoot/EA3/EA52.htm", "8C9E6706-8_table.png", "E120", "0", "", "Class0","{863E6F6A-0C97-4f76-9985-D4426C087E9A}");
